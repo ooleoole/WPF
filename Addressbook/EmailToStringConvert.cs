@@ -21,7 +21,7 @@ namespace Addressbook.Addressbook
 
             }
 
-            throw new Exception($"Cannot convert from type {value.GetType()}");
+            throw new Exception($"Du är fan sämst");
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
